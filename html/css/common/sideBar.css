@@ -1,0 +1,52 @@
+
+.menu-container {
+  display: flex;
+  flex-direction: column;
+  width: 13vw;
+  height: 45vh;
+  max-height: 500px;
+
+
+  background-color: #fff;
+  border-radius: 15px;
+  
+  padding: 20px;
+
+  position: fixed;
+
+  right: 40px;
+  bottom: 160px;
+
+  overflow: hidden; 
+  text-align: center;
+
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+  
+}
+
+.profile-img img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  background-color: #ccc;
+  display: inline-block;
+}
+
+.sideP {
+  margin: 20px 0;
+  font-size: 14px;
+  color: #333;
+}
+
+.sideItem {
+  display: block;
+  margin: 10px 0;
+  text-decoration: none;
+  color: #333;
+  font-size: 14px;
+  transition: color 0.3s ease;
+}
+
+nav a:hover {
+  color: #007bff; /* Blue hover effect */
+}

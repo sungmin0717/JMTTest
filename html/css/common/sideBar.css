@@ -2,9 +2,11 @@
 .menu-container {
   display: flex;
   flex-direction: column;
-  width: 13vw;
-  height: 45vh;
-  max-height: 500px;
+  /* width: 13vw; */
+  /* height: 45vh; */
+
+  width: 200px;
+  height: 400px;
 
 
   background-color: #fff;
@@ -12,7 +14,6 @@
   
   padding: 20px;
 
-  position: fixed;
 
   right: 40px;
   bottom: 160px;

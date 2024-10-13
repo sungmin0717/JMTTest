@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+header {
+    display: flex;
+
+    flex-direction: row;
+    justify-content: space-between;
+    height: 100px;
+    align-items: center;
+    background-color: #61C0BF;
+    padding: 20px;
+}
+
+#header-Font {
+    display: flex;
+    gap: 10px;
+    height: 100%;
+    align-items: flex-end;
+}
+
+
+#header-Font a{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-decoration-line: none;
+    color: black;
+    padding-right: 5px;
+    font-weight: bold;
+}
+
+
+
+.menu {
+    display: flex;
+    width: 40px;
+    height: 40px;
+    background-color: #BBDED6;
+    border: none;
+    border-radius: 50%;
+    align-items: center;
+    justify-content: center;
+    color: #5B9B9A ;
+    font-size: 30px;
+    cursor: pointer;
+    text-decoration-line: none;
+}
+
+
+#logImg{
+    width: 70px;
+    height: 70px;
+}

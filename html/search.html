@@ -1,53 +1,177 @@
 <!DOCTYPE html>
 <html lang="en" xmlns:th="http://www.thymeleaf.org">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Detailpage</title>
 
     <link rel="stylesheet" href="../html/css/common/header.css">
-    
+    <link rel="stylesheet" href="../html/css/common/search.css">
+
 </head>
 
 
+<!-- ------------ 헤더 ----------------- -->
+
+
+<header>
+
+
+
+    <div id="header-Font">
+        <a href="#">메인페이지</a>
+        <a href="#">점메추</a>
+        <a href="#">공지사항</a>
+        <a href="#">FAQ</a>
+    </div>
+
+    <img src="../html/images/logo.png" alt="로고 이미지" id="logImg">
+
+    <a class="menu" href="#">☰</a>
+
+</header>
+<!-- ------------ 헤더 ----------------- -->
+
 <body>
 
-    <!-- ------------ 헤더 ----------------- -->
-    <th:block th:replace="~{common/header}"></th:block>
-    <!-- ------------ 헤더 ----------------- -->
 
 
 
 
 
 
-    <!-- ------------- 사이드 ---------------------- -->
-    <aside>
-        
-        <div class="category">
-            sasd
+    <div class="bodyItem">
+        <!-- ------------- 사이드 ---------------------- -->
+        <aside class="category">
+
+            <div class="categoryBox">
+
+                <div class="categorySearchBox">
+                    <input type="text" class="categorySearch" placeholder="검색">
+
+                </div>
+
+                <hr>
+
+                <div>카테고리</div>
+
+                <hr>
+
+                <div>카테고리</div>
+
+                <hr>
+
+                <div class="categoryBtns_box">
+                    <button class="categoryBtns">최신순</button>|
+                    <button class="categoryBtns">호불호 순</button>|
+                    <button class="categoryBtns">리뷰 많은 순</button>|
+                    <button class="categoryBtns">찜 많은 순</button>
+
+                </div>
+                <hr>
+
+            </div>
+
+        </aside>
+        <!-- ------------- 사이드 ---------------------- -->
+
+
+
+        <div>
+            <!-- -------------------------- 몸통 ------------------ -->
+            <section class="store-section">
+                <div class="store-image">
+                    <img src="../html/images/샘플.jpg" alt="매장 이미지">
+                </div>
+                <div class="store-info">
+                    <h1>삐삐 맛있어</h1>
+                    <p class="store-address">경기도 의정부시</p>
+                    <p>떡볶이 / 한식</p>
+                    <p class="store-phone">010-2323-2322</p>
+                </div>
+                <div class="store-actions">
+                    <p class="store-rating">81%</p>
+                    <button class="wishlist-button">찜 버튼</button>
+                </div>
+            </section>
+            <!-- -------------------------- 몸통 ------------------ -->
+            <!-- -------------------------- 몸통 ------------------ -->
+            <section class="store-section">
+                <div class="store-image">
+                    <img src="../html/images/샘플.jpg" alt="매장 이미지">
+                </div>
+                <div class="store-info">
+                    <h1>삐삐 맛있어</h1>
+                    <p class="store-address">경기도 의정부시</p>
+                    <p>떡볶이 / 한식</p>
+                    <p class="store-phone">010-2323-2322</p>
+                </div>
+                <div class="store-actions">
+                    <p class="store-rating">81%</p>
+                    <button class="wishlist-button">찜 버튼</button>
+                </div>
+            </section>
+            <!-- -------------------------- 몸통 ------------------ -->
+            <!-- -------------------------- 몸통 ------------------ -->
+            <section class="store-section">
+                <div class="store-image">
+                    <img src="../html/images/샘플.jpg" alt="매장 이미지">
+                </div>
+                <div class="store-info">
+                    <h1>삐삐 맛있어</h1>
+                    <p class="store-address">경기도 의정부시</p>
+                    <p>떡볶이 / 한식</p>
+                    <p class="store-phone">010-2323-2322</p>
+                </div>
+                <div class="store-actions">
+                    <p class="store-rating">81%</p>
+                    <button class="wishlist-button">찜 버튼</button>
+                </div>
+            </section>
+            <!-- -------------------------- 몸통 ------------------ -->
+            <!-- -------------------------- 몸통 ------------------ -->
+            <section class="store-section">
+                <div class="store-image">
+                    <img src="../html/images/샘플.jpg" alt="매장 이미지">
+                </div>
+                <div class="store-info">
+                    <h1>삐삐 맛있어</h1>
+                    <p class="store-address">경기도 의정부시</p>
+                    <p>떡볶이 / 한식</p>
+                    <p class="store-phone">010-2323-2322</p>
+                </div>
+                <div class="store-actions">
+                    <p class="store-rating">81%</p>
+                    <button class="wishlist-button">찜 버튼</button>
+                </div>
+            </section>
+            <!-- -------------------------- 몸통 ------------------ -->
+            <!-- -------------------------- 몸통 ------------------ -->
+            <section class="store-section">
+                <div class="store-image">
+                    <img src="../html/images/샘플.jpg" alt="매장 이미지">
+                </div>
+                <div class="store-info">
+                    <h1>삐삐 맛있어</h1>
+                    <p class="store-address">경기도 의정부시</p>
+                    <p>떡볶이 / 한식</p>
+                    <p class="store-phone">010-2323-2322</p>
+                </div>
+                <div class="store-actions">
+                    <p class="store-rating">81%</p>
+                    <button class="wishlist-button">찜 버튼</button>
+                </div>
+            </section>
+            <!-- -------------------------- 몸통 ------------------ -->
+
         </div>
-        
-    </aside>
-    <!-- ------------- 사이드 ---------------------- -->
 
+    </div>
 
-
-
-
-
-
-
-
-    <!-- -------------------------- 몸통 ------------------ -->
-    <section>
-        
-        
-    </section>
-    <!-- -------------------------- 몸통 ------------------ -->
-
-
-
+    <div class="floating-buttons">
+        <a class="scroll-top" href="#">⬆</a>
+    </div>
 
 
 </body>

@@ -22,15 +22,19 @@ header {
     gap: 5px;
     height: 100%;
     align-items: flex-end;
+
 }
 
 
 #header-Font a{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     text-decoration-line: none;
-    color: black;
     padding-right: 5px;
+    color: black;
     font-weight: bold;
+}
+.headerBtn:active{
+    background-color: #22ff00;
 }
 
 

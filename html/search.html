@@ -8,7 +8,7 @@
 
     <link rel="stylesheet" href="../html/css/common/header.css">
     <link rel="stylesheet" href="../html/css/common/search.css">
-
+    <link rel="stylesheet" href="https://fontawesome.com/icons/heart?f=classic&s=solid">
 </head>
 
 
@@ -17,19 +17,18 @@
 
 <header>
 
-
-
     <div id="header-Font">
-        <a href="#">메인페이지</a>
-        <a href="#">점메추</a>
-        <a href="#">공지사항</a>
-        <a href="#">FAQ</a>
+        <a href="#" class="headerBtn">메인페이지</a>
+        <a href="#" class="headerBtn">점메추</a>
+        <a href="#" class="headerBtn">공지사항</a>
+        <a href="#" class="headerBtn">FAQ</a>
     </div>
 
     <img src="../html/images/logo.png" alt="로고 이미지" id="logImg">
 
     <a class="menu" href="#">☰</a>
 
+    
 </header>
 <!-- ------------ 헤더 ----------------- -->
 
@@ -48,7 +47,11 @@
             <div class="categoryBox">
 
                 <div class="categorySearchBox">
-                    <input type="text" class="categorySearch" placeholder="검색">
+
+                    <div class="searchBox">
+                        <input type="text" class="categorySearch" placeholder="검색">
+                        <button class="categorySearch_btn">🍳</button>
+                    </div>
 
                 </div>
 
@@ -92,7 +95,9 @@
                 </div>
                 <div class="store-actions">
                     <p class="store-rating">81%</p>
-                    <button class="wishlist-button">찜 버튼</button>
+                    <button class="heartBtn">
+                        <i class="far fa-heart fa-lg" style="color: #ff0000;"></i>
+                    </button>
                 </div>
             </section>
             <!-- -------------------------- 몸통 ------------------ -->
@@ -174,7 +179,6 @@
     </div>
 
 
+    <script src="https://kit.fontawesome.com/83d69cfe2d.js" crossorigin="anonymous"></script>
 </body>
-
-
 </html>

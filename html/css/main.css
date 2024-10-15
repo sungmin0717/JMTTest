@@ -155,6 +155,10 @@ header {
   cursor: pointer;
   text-decoration-line: none;
 }
+.floating-buttons:active {
+  width: 48px;
+  height: 48px;
+}
 
 .filter{
   display: flex;
@@ -260,16 +264,20 @@ header {
   padding: 10px;
   font-size: 14px;
   font-family: Arial, sans-serif;
+  align-items: center;
 }
 
 .store-name {
   font-weight: bold;
 }
 
-.favorite-button {
-  font-size: 18px;
+.heartBtn{
+  border: none;
+  background-color:transparent;
   cursor: pointer;
 }
-
+.heartBtn:active{
+  scale: 0.9;
+}
 
 

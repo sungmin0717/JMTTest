@@ -78,6 +78,7 @@ hr {
 }
 
 
+
 .categoryBtns_box {
     display: flex;
     align-items: center;
@@ -103,6 +104,12 @@ hr {
     align-items: center;
     font-family: Arial, sans-serif;
 }
+.store-section:hover{
+    scale: 1.01;
+    cursor: pointer;
+}
+
+
 
 .store-image img {
     background-color: #e0e0e0;
@@ -205,6 +212,9 @@ hr {
     background-color:transparent;
     cursor: pointer;
     font-size: 25px;
+  }
+  .heartBtn:hover{
+    scale: 1.2;
   }
   .heartBtn:active{
     scale: 0.9;

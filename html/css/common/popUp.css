@@ -1,12 +1,14 @@
 
+
+
 .menu-container {
   display: flex;
   flex-direction: column;
   /* width: 13vw; */
   /* height: 45vh; */
 
-  width: 200px;
-  height: 400px;
+  width: 400px;
+  height: 500px;
 
 
   background-color: #fff;
@@ -23,7 +25,14 @@
 
   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
   
+  /* -0------------------------------------------ */
+
+  position: absolute;
+  bottom: 120px;
 }
+
+
+
 
 .profile-img img {
   width: 80px;

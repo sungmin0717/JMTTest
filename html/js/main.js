@@ -25,6 +25,7 @@ const MenuContainer = document.querySelector(".menu-container");
 
 menu.addEventListener('click', () => {
 
+<<<<<<< HEAD
   if(MenuContainer.style.display=="block"){
     MenuContainer.style.display="none"
   }else{
@@ -32,4 +33,7 @@ menu.addEventListener('click', () => {
   }
 
   
+=======
+  menu.classremove
+>>>>>>> 2b8a973e66176fa2a25ca3b4eb33b296f2a4cb1f
 });

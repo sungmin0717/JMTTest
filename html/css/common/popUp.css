@@ -4,6 +4,7 @@
 .menu-container {
   display: flex;
   flex-direction: column;
+  /* display: none;  이거 없애고 생기고 하면 될거같은데..*/ 
   /* width: 13vw; */
   /* height: 45vh; */
 
@@ -25,13 +26,19 @@
   /* -0------------------------------------------ */
   
   position: absolute;
+<<<<<<< HEAD
   right: 0;
   bottom: 43%;
   display: none;
   
+=======
+  bottom: 850px;
+>>>>>>> 2b8a973e66176fa2a25ca3b4eb33b296f2a4cb1f
 }
 
-
+.menu-container{
+  
+}
 
 
 

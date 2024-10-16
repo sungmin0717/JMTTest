@@ -279,6 +279,9 @@ header {
 .store-name {
   font-weight: bold;
 }
+.fas fa-heart fa-lg{
+  color: black;
+}
 
 .heartBtn{
   border: none;

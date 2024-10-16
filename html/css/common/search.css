@@ -76,6 +76,10 @@ hr {
     width: 100%;
     cursor: pointer;
 }
+.categoryBtns:active{
+    background-color: burlywood;
+    border-radius: 30px;
+}
 
 
 

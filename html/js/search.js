@@ -18,4 +18,17 @@ storeBtn.addEventListener('click', (event) => {
   });  
 
 
-// 
+// ----------------------- 
+const menu = document.querySelector(".menu");
+const MenuContainer = document.querySelector(".menu-container");
+
+menu.addEventListener('click', () => {
+
+  if(MenuContainer.style.display=="block"){
+    MenuContainer.style.display="none"
+  }else{
+    MenuContainer.style.display="block"
+  }
+
+  
+});

@@ -21,10 +21,15 @@ for( let i = 0 ; i < MainHeartBtn.length ; i++){
 // 메뉴 누를시 레이어 팝업
 
 const menu = document.querySelector(".menu");
-const MenuContainer = document.getElementsByClassName(".menu-container");
+const MenuContainer = document.querySelector(".menu-container");
 
 menu.addEventListener('click', () => {
 
-  MenuContainer.element.remove();
+  if(MenuContainer.style.display=="block"){
+    MenuContainer.style.display="none"
+  }else{
+    MenuContainer.style.display="block"
+  }
 
+  
 });

@@ -7,7 +7,7 @@
   /* width: 13vw; */
   /* height: 45vh; */
 
-  width: 400px;
+  width: 300px;
   height: 500px;
 
 
@@ -16,20 +16,21 @@
   
   padding: 20px;
 
-
-  right: 40px;
-  bottom: 160px;
-
+  
   overflow: hidden; 
   text-align: center;
-
+  
   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
   
   /* -0------------------------------------------ */
-
+  
   position: absolute;
-  bottom: 120px;
+  right: 0;
+  bottom: 43%;
+  display: none;
+  
 }
+
 
 
 

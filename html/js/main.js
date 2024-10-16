@@ -25,6 +25,5 @@ const MenuContainer = document.getElementsByClassName(".menu-container");
 
 menu.addEventListener('click', () => {
 
-  MenuContainer.element.remove();
-
+  menu.classremove
 });
